@@ -32,7 +32,7 @@ def initialize_client():
 
 # update the chat log
 def update_chat(msg, state):
-
+    
     chatlog.config(state=NORMAL)
     # update the message in the window
     if state==0:
