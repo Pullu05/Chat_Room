@@ -117,7 +117,7 @@ def GUI():
     gui.mainloop()
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     #chatlog = textbox = None
     conn = initialize_server()
     GUI()
